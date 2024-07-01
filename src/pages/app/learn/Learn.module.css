@@ -24,7 +24,6 @@
 .back {
   margin-right: 1rem;
   cursor: pointer;
-  
 }
 
 .back:hover {
@@ -67,4 +66,9 @@
 .chapterId {
   font-size: 1.2rem;
   padding-top: 0.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

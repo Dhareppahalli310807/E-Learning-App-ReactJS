@@ -9,40 +9,36 @@
                 "chapter": 1,
                 "title": "Introduction",
                 "description": "Introduction to React",
-                "details": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries.",
-                "video": "https://www.youtube.com/embed/FZ0cG47msEk" 
-                
+                "details": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries."
             },
             {
                 "chapter": 2,
                 "title": "JSX",
-                "description": "Learning JSX",
-                "details": "JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript. JSX gets compiled to React.createElement() calls which return plain JavaScript objects called 'React elements'. These objects are then used to build the DOM.",
-                "video":"https://www.youtube.com/embed/7HSd1sk07uU?list=PLb0IAmt7-GS3fZ46IGFirdqKTIxlws7e0"
+                "description": "JSX",
+                "details": "JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript. JSX gets compiled to React.createElement() calls which return plain JavaScript objects called 'React elements'. These objects are then used to build the DOM."
             },
             {
                 "chapter": 3,
                 "title": "Components",
-                "description": "What are Components?",
-                "details": "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called 'props') and return React elements describing what should appear on the screen.",
-                "video":"https://www.youtube.com/embed/MGuKhcnrqGA?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY"
+                "description": "Components",
+                "details": "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called 'props') and return React elements describing what should appear on the screen."
             },
             {
                 "chapter": 4,
                 "title": "Props",
-                "description": "Passing the data through Props",
+                "description": "Props",
                 "details": "Props are a way of passing data from parent to child. They are immutable and are passed from parent to child via attributes."
             },
             {
                 "chapter": 5,
                 "title": "State",
-                "description": "Single Source of Truth - State",
+                "description": "State",
                 "details": "State is similar to props, but it is private and fully controlled by the component."
             },
             {
                 "chapter": 6,
                 "title": "Lifecycle",
-                "description": "Methods involved in Component Lifecycle",
+                "description": "Lifecycle",
                 "details": "Each component has several “lifecycle methods” that you can override to run code at particular times in the process. Methods prefixed with will are called right before something happens, and methods prefixed with did are called right after something happens."
             },
             {
